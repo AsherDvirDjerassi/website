@@ -2,6 +2,11 @@
  * https://jgthms.com/web-design-in-4-minutes/ 
  */
 
+p { font-family: "Quicksand"; 
+    font-size: .9em;
+
+}
+
 :root {
   --color-hi: #f56a6a;
 }
@@ -15,16 +20,19 @@ body {
   margin: 0 auto;
   max-width: 50em;
   font-family: "Helvetica", "Arial", sans-serif;
-  line-height: 1.5;
-  padding: 2em 1em;
+  line-height: 1.4;
+  padding: .5em .5em;
 }
 
 h1 {
-  font-size: 2.5em
+  font-size: 2.5em;
+  font-family: "Arial"
 }
 
 h2 {
   font-size: 2em;
+    font-family: "Quicksand"
+
 }
 
 h3 {
@@ -32,7 +40,7 @@ h3 {
 }
 
 h2, h3 {
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 
 h1, h2, strong {
@@ -60,8 +68,8 @@ a {
 blockquote, q {
   border-left: solid 4px #bbb;
   font-style: italic;
-  margin: 0 0 2em 0;
-  padding: 0.5em 0 0.5em 2em;
+  margin: 0 0 3em 0;
+  padding: 0 0 0 0;
 }
 
 blockquote::before, blockquote::after, q::before, q::after {
@@ -69,3 +77,6 @@ blockquote::before, blockquote::after, q::before, q::after {
     content: none;
 }
 
+.text {
+  font-size: 70px;
+}
